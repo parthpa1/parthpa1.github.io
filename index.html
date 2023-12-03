@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pavan's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ff6600 3px solid;
+        }
+        header a {
+            color: #ff6600;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        header li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #ff6600;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .button {
+            height: 38px;
+            background: #ff6600;
+            border: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #ffffff;
+        }
+        .showcase {
+            min-height: 400px;
+            text-align: center;
+            color: #ffffff;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            background-size: cover;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Pavan</span> Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to my Professional Portfolio</h1>
+            <p>Experience in Investment Banking, Research, and Teaching</p>
+        </div>
+    </section>
+
+    <!-- More content sections will go here: Education, Experience, etc. -->
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form>
+                <!-- Input fields for the contact form -->
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email Address">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Pavan's Portfolio, &copy; 2023</p>
+    </footer>
+</body>
+</html>
